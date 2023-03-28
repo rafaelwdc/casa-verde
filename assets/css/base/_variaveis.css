@@ -1,12 +1,31 @@
 :root {
-    /* Cores: */
+    /* Cores simples/Simple colors: */
+    
+    --branco: #FFFFFF;
+    
+    --cinza: #909090;
+    
+    /* Cores compostas/Composite colors: */
+
     --amarelo: #FFCD47;
     --amarelo-transparente: #FFCD473D;
-    --branco: #FFFFFF;
-    --cinza: #909090;
+
     --preto: #202020;
     --preto-tranparente: #0000000F;
-    /* Fontes: */
+
+    /* Fontes/Fonts: */
+
     --familia-corpo: 'Montserrat', sans-serif;
+    --familia-titulo-destaque: 'Elsie Swash Caps', serif;
+
+    /* Peso/Weight: */
+
+    --peso-titulo-destaque: 900;
+    --peso-botao: 700;
+
+    /* Tamanho/Size: */
+
     --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;    
 }
